@@ -1,0 +1,48 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+.contenedorPrincipal{
+    border: 1px grey solid;
+    width: 650px;
+}
+.header {
+    background-color: rgb(23, 162, 184);
+    height: 70px;
+}
+.header > img {
+    width: 60px;
+    position: relative;
+    top: 40px;
+    /*para que el borde sea circular*/
+    border:3px solid grey;
+    border-radius:50%;
+    padding: 1px;
+    background-color: white;
+    /*separación*/
+    left:20px;
+}
+.tarjetaInformacion{
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.iconoUbicacion{
+    width: 10px;
+}
+
+.editarPerfil {
+    vertical-align: 15px;
+}
+.editarPerfil > img {
+    width: 20px;
+}
+.skillset{
+    margin-bottom: 5px;
+}
+
+.tituloUniversitario{
+    margin-top: 0;
+}
+.ciudad, .linkEditar{
+    vertical-align: 3px;
+}
